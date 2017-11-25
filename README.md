@@ -1,9 +1,9 @@
-# project_bs
-# 프로젝트 빗썸
 ## project_bs(bithumb)
+# 프로젝트 빗썸
+ 
 
-
-# bithumb public API 
+# 빗썸 공개 API 테스트 코드 예제
+# Bithumb public API 
 https://www.bithumb.com/u1/US127
 
 ```sh
