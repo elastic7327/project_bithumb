@@ -1,5 +1,5 @@
 # project_bs
-project_bs
+project_bs(bithumb)
 
 
 # bithumb public API 
@@ -33,7 +33,18 @@ https://api.bithumb.com/public/ticker/{currency}
     }
 }
 
+```
 
 
+# Quick Start
+```
+
+# install dependencis
+# 의존 패키지들 설치 
+pip install -r developments.txt
+
+# run test
+# 테스트 실행
+pytest
 
 ```
