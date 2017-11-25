@@ -1,5 +1,6 @@
 # project_bs
-project_bs(bithumb)
+# 프로젝트 빗썸
+## project_bs(bithumb)
 
 
 # bithumb public API 
