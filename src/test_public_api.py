@@ -40,7 +40,8 @@ class TestStringMethods(BaseTests):
 
 
         #  TODO:  <26-11-17, Daniel> #
-        # print 하는 함수를 내가 데코레이팅하는 것이나을 듯..
+        # need decoration!!!!!
+        # 데코레이션 하는게 나음
         print(self.R)
         pprint.pprint(json.loads(body))
         print(self.W)

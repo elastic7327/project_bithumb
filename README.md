@@ -46,6 +46,8 @@ pip install -r developments.txt
 
 # run test
 # 테스트 실행
-pytest
+pytest -s -v 
+# 또는 or 
+./pytest.sh
 
 ```
