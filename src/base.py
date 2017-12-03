@@ -4,9 +4,12 @@ import requests
 import json
 import pprint
 
+import os
+
 class BaseTests(unittest.TestCase):
 
     def setUp(self):
+        self.private_key = os.getenv("PRIVATE_KEY")
         self.ticker_url = "https://api.bithumb.com/public/ticker/"
         self.orderbook_url = "https://api.bithumb.com/public/orderbook/"
         self.recent_transactions_url = "https://api.bithumb.com/public/recent_transactions/"

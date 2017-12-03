@@ -107,3 +107,6 @@ class TestStringMethods(BaseTests):
         pprint.pprint(json.loads(status_code))
         print(self.W)
         assert status_code == b"200"
+
+    def test_os_env_test(self):
+        assert self.private_key == ""
