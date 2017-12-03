@@ -1,9 +1,13 @@
 ## project_bs(bithumb)
 # 프로젝트 빗썸
+# 빗썸 공개 API 테스트 코드
+# https://www.bithumb.com/u1/US127
+# Bithumb public API 
 
 ```
 # project bithumb
 # money, it just tool 
+# 재미있게 버는 돈이 더 가치있다.
 
 888      d8b 888    888                             888
 888      Y8P 888    888                             888
@@ -16,11 +20,6 @@
 
 ```
  
-
-# 빗썸 공개 API 테스트 코드 예제
-# Bithumb public API 
-https://www.bithumb.com/u1/US127
-
 ```sh
 
 GET:
