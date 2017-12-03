@@ -1,9 +1,10 @@
 ## project_bs(bithumb)
 # 프로젝트 빗썸
 
-
-
 ```
+# project bithumb
+# money, it just tool 
+
 888      d8b 888    888                             888
 888      Y8P 888    888                             888
 888          888    888                             888
