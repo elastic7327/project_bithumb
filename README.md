@@ -1,7 +1,9 @@
 ## project_bs(bithumb) https://www.bithumb.com/u1/US127
 ##  Bithumb public API 빗썸 공개 API 테스트 코드
 
-![Alt text](./.img/front.png?raw=true "Optional Title" {width=600px height=500px})
+<p align="left">
+  <img src="./.img/front.png" width="900"/>
+</p>
 
 
 
