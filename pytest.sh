@@ -6,8 +6,8 @@ Empty
 EOF
 echo "\033[1;37m"
 
-export CONNECTION_KEY=""
-export PRIVATE_KEY=""
+export CONNECTION_KEY="Im a connection_key"
+export PRIVATE_KEY="Im a private_key"
 echo $CONNECTION_KEY
 echo $PRIVATE_KEY
 
