@@ -10,7 +10,7 @@ install:
 
 cache:
   directories:
-      - $HOME/.cache/pip
+     - $HOME/.cache/pip
 
 # command to run tests
 script: pytest -s -v --cov=src --cov-report html

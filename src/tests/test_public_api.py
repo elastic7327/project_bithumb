@@ -41,7 +41,6 @@ class TestStringMethods(BaseTests):
 
         #  TODO:  <26-11-17, Daniel> #
         # need decoration!!!!!
-        # 데코레이션 하는게 나음
         print(self.R)
         pprint.pprint(json.loads(body))
         print(self.W)
@@ -69,7 +68,6 @@ class TestStringMethods(BaseTests):
 
         #  TODO:  <26-11-17, Daniel> #
         # need decoration!!!!!
-        # 데코레이션 하는게 나음
         print(self.R)
         pprint.pprint(json.loads(body))
         print(self.W)
@@ -98,7 +96,6 @@ class TestStringMethods(BaseTests):
 
         #  TODO:  <26-11-17, Daniel> #
         # need decoration!!!!!
-        # 데코레이션 하는게 나음
         print(self.R)
         pprint.pprint(json.loads(body))
         print(self.W)
