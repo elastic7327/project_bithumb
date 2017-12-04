@@ -93,7 +93,6 @@ class TestStringMethods(BaseTests):
         header = header_buffer.getvalue()
         status_code = header[9:12]
 
-
         #  TODO:  <26-11-17, Daniel> #
         # need decoration!!!!!
         print(self.R)
