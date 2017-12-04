@@ -15,13 +15,13 @@ class TestPrivateApi(BaseTests):
 
         currency = "BTC"
 
-        data = {
+        headers = {
             "apiKey": self.connect_key,
             "secretKey": self.secret_key,
-            "currency": currency
+            "currency": "BTC"
         }
 
-        resp = requests.post(self.account_info_pri, data=data)
+        resp = requests.get(self.account_info_pri, headers=headers)
 
         print (resp.content)
 

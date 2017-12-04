@@ -16,7 +16,7 @@ echo "\033[1;37m"
 # export CONNECTION_KEY="Im a connection_key"
 # export PRIVATE_KEY="Im a private_key"
 echo "Your Connection Key" + $CONNECTION_KEY
-echo "Your Private Key" + $PRIVATE_KEY
+echo "Your Private Key" + $SECRET_KEY
 
 # pytest -s -v --cov=src --cov coveralls  --cov-report html
 
