@@ -1,35 +1,23 @@
-
-import requests
-
 import pycurl
 from io import BytesIO
 
 import pytest
-import json
-import pprint
+
+from .xcoin_api_client import XCoinAPI
+
 
 from .base import BaseTests
 
 class TestPrivateApi(BaseTests):
-    @pytest.mark.skip(reason="skip it for a moment")
     def test_account_info_requests(self):
+        api = XCoinAPI(self.connect_key, self.secret_key)
 
-        currency = "BTC"
+        rgParams = {
+            "order_currency" : "BTC",
+            "payment_currency" : "KRW"
+        };
+        resp = api.xcoinApiCall("/info/account", rgParams)
+        assert resp["status"] == "0000"
 
-        headers = {
-            "apiKey": self.connect_key,
-            "secretKey": self.secret_key,
-            "currency": "BTC"
-        }
-
-        resp = requests.get(self.account_info_pri, headers=headers)
-
-        print (resp.content)
-
-        assert resp.status_code == 200
-
-        print(self.R)
-        pprint.pprint(json.loads(resp.content))
-        print (resp.content)
-        print(self.W)
+        print(resp)
 
