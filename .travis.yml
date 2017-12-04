@@ -4,7 +4,9 @@ python:
   - "3.6"
 
 # command to install dependencies
-install: "cd .requrements && pip install -r requirements.txt"
+install: 
+  - "pip install -U pip wheel"
+  - "pip install -r requirements/developments.txt "
 
 # command to run tests
 script: pytest -s -v
