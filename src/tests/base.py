@@ -1,3 +1,6 @@
+
+from .xcoin_api_client import XCoinAPI
+
 import unittest
 import requests
 
@@ -38,6 +41,8 @@ class BaseTests(unittest.TestCase):
 
         # 판/구매 거래 주문 등록 또는 진행 중인 거래
         self.info_orders_pri = "https://api.bithumb.com/info/orders"
+
+        self.api = XCoinAPI(self.connect_key, self.secret_key)
 
         self.W  = '\033[0m'  # white (normal)
         self.R  = '\033[31m' # red
