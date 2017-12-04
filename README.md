@@ -1,11 +1,6 @@
 ## project_bs(bithumb) https://www.bithumb.com/u1/US127
 ##  Bithumb public API 빗썸 공개 API 테스트 코드
 
-<p align="left">
-  <img src="./.img/front.png" width="900"/>
-</p>
-
-
 
 [![Build Status](https://travis-ci.org/elastic7327/project_bithumb.svg?branch=master)](https://travis-ci.org/elastic7327/project_bithumb) [![Coverage Status](https://coveralls.io/repos/github/elastic7327/project_bithumb/badge.svg?branch=master)](https://coveralls.io/github/elastic7327/project_bithumb?branch=master)
 
@@ -71,3 +66,6 @@ pytest -s -v
 ./pytest.sh
 
 ```
+<p align="left">
+  <img src="./.img/front.png" width="500"/>
+</p>
