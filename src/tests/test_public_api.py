@@ -7,7 +7,7 @@ import pytest
 import json
 import pprint
 
-from base import BaseTests
+from .base import BaseTests
 
 class TestStringMethods(BaseTests):
 
@@ -111,3 +111,6 @@ class TestStringMethods(BaseTests):
     @pytest.mark.skip(reason="skip it for a moment")
     def test_os_env_test(self):
         assert self.private_key == ""
+
+    def test_sum_test(self):
+        assert 1 + 1 == 2, ""

@@ -11,4 +11,4 @@ export PRIVATE_KEY="Im a private_key"
 echo $CONNECTION_KEY
 echo $PRIVATE_KEY
 
-pytest -s -v
+pytest -s -v --cov=src --cov-report html
