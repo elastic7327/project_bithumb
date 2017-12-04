@@ -11,6 +11,7 @@ import pprint
 from .base import BaseTests
 
 class TestPrivateApi(BaseTests):
+    @pytest.mark.skip(reason="skip it for a moment")
     def test_account_info_requests(self):
 
         currency = "BTC"
