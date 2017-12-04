@@ -9,7 +9,7 @@ import pprint
 
 from .base import BaseTests
 
-class TestStringMethods(BaseTests):
+class TestPublicApi(BaseTests):
 
     @pytest.mark.skip(reason="skip it for a moment")
     def test_send_requests(self):

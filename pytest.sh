@@ -18,4 +18,7 @@ echo "\033[1;37m"
 echo "Your Connection Key" + $CONNECTION_KEY
 echo "Your Private Key" + $PRIVATE_KEY
 
-pytest -s -v --cov=src --cov coveralls  --cov-report html
+# pytest -s -v --cov=src --cov coveralls  --cov-report html
+
+
+pytest -s -v src/tests/test_private_api.py
