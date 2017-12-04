@@ -1,6 +1,5 @@
 ## project_bs(bithumb) https://www.bithumb.com/u1/US127
 ##  Bithumb public API 빗썸 공개 API 테스트 코드
-## https://www.bithumb.com/u1/US127
 
 [![Build Status](https://travis-ci.org/elastic7327/project_bithumb.svg?branch=master)](https://travis-ci.org/elastic7327/project_bithumb)
 
