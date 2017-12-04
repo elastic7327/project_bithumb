@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/elastic7327/project_bithumb.svg?branch=master)](https://travis-ci.org/elastic7327/project_bithumb)
 
+[![Coverage Status](https://coveralls.io/repos/github/elastic7327/project_bithumb/badge.svg?branch=master)](https://coveralls.io/github/elastic7327/project_bithumb?branch=master)
+
 ```
 # project bithumb
 # money, it just tool 
