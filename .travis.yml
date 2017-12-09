@@ -13,7 +13,9 @@ cache:
      - $HOME/.cache/pip
 
 # command to run tests
-script: pytest -s -v --cov=src --cov-report html
+script: 
+    - pylint src/
+    - pytest -s -v --cov=src --cov-report html
 
 after_success:
     - coveralls
